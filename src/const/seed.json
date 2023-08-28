@@ -1,0 +1,2972 @@
+[
+  {
+    "owner": [
+      {
+        "id": "d864dc76-a449-4e91-973b-a093c5436990",
+        "username": "john.doe",
+        "password": "P@ssw0rd",
+        "email": "john.doe@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "role": "admin",
+        "created_at": "2023-08-27T06:32:53.815Z",
+        "updated_at": "2023-08-27T22:22:19.719Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bd221624-7e7f-4c19-a95a-e2703ddac57f",
+        "username": "jane.smith",
+        "password": "Secure123",
+        "email": "jane.smith@example.com",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "role": "manager",
+        "created_at": "2023-08-27T09:59:54.307Z",
+        "updated_at": "2023-08-27T22:34:54.830Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dd307f6b-ba3e-4087-9683-e9212768ecff",
+        "username": "michael.brown",
+        "password": "Secret!23",
+        "email": "michael.brown@example.com",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "role": "employee",
+        "created_at": "2023-08-27T18:12:02.215Z",
+        "updated_at": "2023-08-27T14:08:31.443Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cc53ff82-7fe0-48a1-a642-0b7bf69c6544",
+        "username": "sarah.jones",
+        "password": "Password123",
+        "email": "sarah.jones@example.com",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "role": "supervisor",
+        "created_at": "2023-08-27T09:43:16.685Z",
+        "updated_at": "2023-08-27T06:50:32.582Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9de6d7c8-93cf-4f94-b41c-ed6ce01d3ff9",
+        "username": "robert.wilson",
+        "password": "StrongPwd!",
+        "email": "robert.wilson@example.com",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "role": "director",
+        "created_at": "2023-08-27T16:37:25.074Z",
+        "updated_at": "2023-08-27T22:43:22.411Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "6c787d06-be14-4be5-888b-be51d8c31eb7",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 77556,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-08-27T23:16:08.386Z",
+        "updated_at": "2023-08-28T04:11:05.083Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "36f259ad-d32d-4395-a428-140848059cf0",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 72406,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "status": "Booked",
+        "created_at": "2023-08-27T11:08:26.350Z",
+        "updated_at": "2023-08-27T22:08:52.472Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "388bf16c-30ed-4c8b-9e9d-c026ea819f33",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 62076,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "status": "In Repair",
+        "created_at": "2023-08-27T08:58:49.523Z",
+        "updated_at": "2023-08-27T12:49:24.405Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "aa91fcc2-546b-4d59-bcef-4bd0fd9741e8",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 91887,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "status": "Rented",
+        "created_at": "2023-08-27T06:01:05.113Z",
+        "updated_at": "2023-08-28T03:55:10.187Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "907a2720-08d6-424b-8e4a-b05ee17cf753",
+        "make": "BMW",
+        "model": "X5",
+        "year": 61936,
+        "color": "White",
+        "license_plate": "QWE456",
+        "status": "Out of Service",
+        "created_at": "2023-08-27T05:54:29.134Z",
+        "updated_at": "2023-08-27T19:05:13.027Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "45dd18df-fe27-4ced-9bf9-f276d4f544a4",
+        "start_time": "2023-08-27T16:41:40.913Z",
+        "end_time": "2023-08-27T13:36:33.782Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "status": "Pending",
+        "created_at": "2023-08-27T13:30:02.972Z",
+        "updated_at": "2023-08-27T17:40:38.761Z",
+        "car_id": "388bf16c-30ed-4c8b-9e9d-c026ea819f33",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb3448c0-71a5-4f6f-b204-07552408a885",
+        "start_time": "2023-08-27T05:51:54.294Z",
+        "end_time": "2023-08-27T07:31:23.555Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "status": "Confirmed",
+        "created_at": "2023-08-27T22:40:54.023Z",
+        "updated_at": "2023-08-27T13:03:57.910Z",
+        "car_id": "907a2720-08d6-424b-8e4a-b05ee17cf753",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "652faebb-b9c1-4255-8e15-a26f1f09a4ea",
+        "start_time": "2023-08-27T06:02:10.488Z",
+        "end_time": "2023-08-27T20:48:55.362Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T10:29:48.725Z",
+        "updated_at": "2023-08-27T21:06:23.785Z",
+        "car_id": "aa91fcc2-546b-4d59-bcef-4bd0fd9741e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7672fe58-d11e-4ab3-a5f6-b448a0ff3a03",
+        "start_time": "2023-08-27T15:19:27.556Z",
+        "end_time": "2023-08-28T00:11:45.653Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "status": "Completed",
+        "created_at": "2023-08-27T12:56:24.877Z",
+        "updated_at": "2023-08-27T05:58:19.548Z",
+        "car_id": "aa91fcc2-546b-4d59-bcef-4bd0fd9741e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4d43410-ca47-49cf-be4c-1672431c59bd",
+        "start_time": "2023-08-27T20:45:28.184Z",
+        "end_time": "2023-08-28T02:08:27.726Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "status": "On Hold",
+        "created_at": "2023-08-27T21:51:04.847Z",
+        "updated_at": "2023-08-28T00:18:34.373Z",
+        "car_id": "907a2720-08d6-424b-8e4a-b05ee17cf753",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin": [
+      {
+        "id": "b10c538d-004f-4a27-af06-b05a8064dae8",
+        "username": "admin1",
+        "password": "P@ssw0rd",
+        "email": "admin1@example.com",
+        "first_name": "Admin",
+        "last_name": "One",
+        "role": "admin",
+        "created_at": "2023-08-27T18:06:12.207Z",
+        "updated_at": "2023-08-28T04:05:00.090Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3eb944b0-ad48-4f0f-9846-fbcdd39243a3",
+        "username": "admin2",
+        "password": "Secure123",
+        "email": "admin2@example.com",
+        "first_name": "Administrator",
+        "last_name": "Two",
+        "role": "superadmin",
+        "created_at": "2023-08-27T17:32:23.335Z",
+        "updated_at": "2023-08-27T20:50:48.101Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e268ca25-023f-4949-8528-5d9f8fb3474b",
+        "username": "admin3",
+        "password": "Secret!23",
+        "email": "admin3@example.com",
+        "first_name": "Super",
+        "last_name": "Three",
+        "role": "root",
+        "created_at": "2023-08-27T16:46:30.276Z",
+        "updated_at": "2023-08-27T08:36:51.780Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6303ea09-ea89-4749-8c5a-d8bcf5e01d38",
+        "username": "admin4",
+        "password": "Password123",
+        "email": "admin4@example.com",
+        "first_name": "System",
+        "last_name": "Four",
+        "role": "systemadmin",
+        "created_at": "2023-08-27T15:24:02.208Z",
+        "updated_at": "2023-08-27T17:29:47.947Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0186a780-d5d4-4ab0-a286-4230afaaef31",
+        "username": "admin5",
+        "password": "StrongPwd!",
+        "email": "admin5@example.com",
+        "first_name": "Master",
+        "last_name": "Five",
+        "role": "masteradmin",
+        "created_at": "2023-08-27T22:32:45.325Z",
+        "updated_at": "2023-08-27T23:20:07.824Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0cb4f12c-02aa-4e67-bb0c-7d4f04f251ff",
+        "email": "Dewitt38@gmail.com",
+        "firstName": "Narciso",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1074.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "39e51c1a-c68b-479f-adae-5e889f5744ef",
+        "email": "Sammy.Brakus@yahoo.com",
+        "firstName": "Agustin",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53766624",
+        "tenantId": null
+      },
+      {
+        "reference": "97c5fe53-53a2-45e1-81e3-a798f635e8a7",
+        "email": "Solon_Blanda40@yahoo.com",
+        "firstName": "Rasheed",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/679.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ddb592e2-d56c-4221-b3c9-e34dfe4cad39",
+        "email": "Izabella.Effertz59@gmail.com",
+        "firstName": "Alexandrea",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17818217",
+        "tenantId": null
+      },
+      {
+        "reference": "51588ad0-714d-4179-92fb-5ead7f58f665",
+        "email": "Olen18@hotmail.com",
+        "firstName": "Lewis",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/420.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "25572956-3772-4a30-9cf9-5a706c469b8d",
+        "username": "johndoe",
+        "password": "p@ssw0rd",
+        "email": "john.doe@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "role": "Admin",
+        "created_at": "2023-08-27T11:54:08.535Z",
+        "updated_at": "2023-08-27T16:06:14.081Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ff861a82-1006-4a47-a0c2-33b2d7f29c1d",
+        "username": "janesmith",
+        "password": "securepassword",
+        "email": "jane.smith@example.com",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "role": "Manager",
+        "created_at": "2023-08-27T21:34:41.146Z",
+        "updated_at": "2023-08-27T05:40:07.784Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b291bd6a-8e63-4bcd-aced-ab21aed0926e",
+        "username": "michaelbrown",
+        "password": "12345678",
+        "email": "michael.brown@example.com",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "role": "Employee",
+        "created_at": "2023-08-27T04:55:54.791Z",
+        "updated_at": "2023-08-28T01:37:22.012Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fec31f90-25d1-4441-8578-73cc6609f4c1",
+        "username": "sarahjones",
+        "password": "password123",
+        "email": "sarah.jones@example.com",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "role": "Supervisor",
+        "created_at": "2023-08-27T11:26:40.440Z",
+        "updated_at": "2023-08-27T18:25:51.034Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6f9e535d-5868-484b-bb3a-ef96b4483282",
+        "username": "davidwilson",
+        "password": "letmein",
+        "email": "david.wilson@example.com",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "role": "Director",
+        "created_at": "2023-08-27T20:43:32.372Z",
+        "updated_at": "2023-08-27T10:25:16.002Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "ac5e8429-1243-4ccd-bf4b-028c81703515",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 25458,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-08-27T08:35:56.840Z",
+        "updated_at": "2023-08-27T05:00:06.330Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fe23097c-0a29-48b8-a336-513530222cbe",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 68459,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "status": "Rented",
+        "created_at": "2023-08-28T03:28:00.705Z",
+        "updated_at": "2023-08-27T13:41:41.475Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c2212af0-f3de-4b90-9e68-d41a7737e8b9",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 35160,
+        "color": "Black",
+        "license_plate": "123456",
+        "status": "Out of Service",
+        "created_at": "2023-08-27T05:43:22.842Z",
+        "updated_at": "2023-08-27T10:35:13.777Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c0d90f9d-4d1d-4bc7-807e-4768e0627c2c",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 89341,
+        "color": "White",
+        "license_plate": "789ABC",
+        "status": "Maintenance",
+        "created_at": "2023-08-27T19:45:26.252Z",
+        "updated_at": "2023-08-28T00:19:11.058Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "91684396-917c-4bde-9f03-f32dcd6c1542",
+        "make": "BMW",
+        "model": "X5",
+        "year": 36730,
+        "color": "Silver",
+        "license_plate": "456XYZ",
+        "status": "Reserved",
+        "created_at": "2023-08-27T11:25:29.822Z",
+        "updated_at": "2023-08-27T10:21:04.340Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "b045dadb-4664-489f-8ce0-fcc0a72f6678",
+        "start_time": "2023-08-27T19:48:18.061Z",
+        "end_time": "2023-08-27T21:45:42.941Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Airport",
+        "status": "Pending",
+        "created_at": "2023-08-27T19:18:27.240Z",
+        "updated_at": "2023-08-27T14:09:32.901Z",
+        "car_id": "fe23097c-0a29-48b8-a336-513530222cbe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "360ba7b4-3c47-4dbe-83e3-600167b80c02",
+        "start_time": "2023-08-27T05:09:54.026Z",
+        "end_time": "2023-08-27T20:46:32.612Z",
+        "pickup_location": "Downtown",
+        "dropoff_location": "Downtown",
+        "status": "Confirmed",
+        "created_at": "2023-08-27T20:00:38.828Z",
+        "updated_at": "2023-08-27T15:47:50.749Z",
+        "car_id": "c2212af0-f3de-4b90-9e68-d41a7737e8b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6805a1d-a46c-436f-89ff-b1794434d13e",
+        "start_time": "2023-08-27T06:23:49.287Z",
+        "end_time": "2023-08-27T05:38:53.752Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Train Station",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T23:36:00.227Z",
+        "updated_at": "2023-08-27T04:54:50.653Z",
+        "car_id": "ac5e8429-1243-4ccd-bf4b-028c81703515",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "895c6033-4923-4a9d-b27e-dbe6878c7501",
+        "start_time": "2023-08-27T05:15:44.215Z",
+        "end_time": "2023-08-27T04:40:05.790Z",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Shopping Mall",
+        "status": "Completed",
+        "created_at": "2023-08-27T12:31:27.688Z",
+        "updated_at": "2023-08-28T03:12:04.384Z",
+        "car_id": "c2212af0-f3de-4b90-9e68-d41a7737e8b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ade6eb88-dda4-46ba-9759-7c133e9100dd",
+        "start_time": "2023-08-28T03:28:53.370Z",
+        "end_time": "2023-08-27T18:58:57.334Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Hotel",
+        "status": "In Progress",
+        "created_at": "2023-08-27T15:32:28.435Z",
+        "updated_at": "2023-08-27T21:02:43.558Z",
+        "car_id": "c2212af0-f3de-4b90-9e68-d41a7737e8b9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin": [
+      {
+        "id": "f4f800f4-345a-49d3-90b6-36453605651c",
+        "username": "admin1",
+        "password": "p@ssw0rd",
+        "email": "admin1@example.com",
+        "first_name": "Admin",
+        "last_name": "One",
+        "role": "Super Admin",
+        "created_at": "2023-08-27T08:12:10.151Z",
+        "updated_at": "2023-08-27T17:18:16.053Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2ecb3919-b192-4337-8715-bb0c29f0a628",
+        "username": "admin2",
+        "password": "securepassword",
+        "email": "admin2@example.com",
+        "first_name": "Admin",
+        "last_name": "Two",
+        "role": "Admin",
+        "created_at": "2023-08-27T10:32:56.405Z",
+        "updated_at": "2023-08-27T05:31:20.316Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "eac6be8d-a407-4de9-a9f2-b4fe1eb1bf24",
+        "username": "admin3",
+        "password": "12345678",
+        "email": "admin3@example.com",
+        "first_name": "Admin",
+        "last_name": "Three",
+        "role": "Admin",
+        "created_at": "2023-08-27T19:21:16.162Z",
+        "updated_at": "2023-08-27T16:56:33.325Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "060183ec-b04a-4d37-a571-72fcf213b8b8",
+        "username": "admin4",
+        "password": "password123",
+        "email": "admin4@example.com",
+        "first_name": "Admin",
+        "last_name": "Four",
+        "role": "Admin",
+        "created_at": "2023-08-27T05:09:20.423Z",
+        "updated_at": "2023-08-28T01:18:04.147Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c9198c50-fdf3-48fc-8417-1c07946a4868",
+        "username": "admin5",
+        "password": "letmein",
+        "email": "admin5@example.com",
+        "first_name": "Admin",
+        "last_name": "Five",
+        "role": "Admin",
+        "created_at": "2023-08-27T11:56:01.884Z",
+        "updated_at": "2023-08-27T06:10:36.138Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e3199727-ea86-4b9a-997a-0500990cda18",
+        "email": "Sydni_Tromp@gmail.com",
+        "firstName": "Savannah",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77535427",
+        "tenantId": null
+      },
+      {
+        "reference": "757dcaba-6dc6-4964-9d3c-5935cca3c970",
+        "email": "Alexys_Weber74@gmail.com",
+        "firstName": "Dan",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44612789",
+        "tenantId": null
+      },
+      {
+        "reference": "5b543b15-5b18-431f-87dc-c7dd75637a2f",
+        "email": "Houston.Torphy@gmail.com",
+        "firstName": "Callie",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38863128",
+        "tenantId": null
+      },
+      {
+        "reference": "c11a8675-ed4e-4aaf-98c4-663531962790",
+        "email": "Stella88@gmail.com",
+        "firstName": "Amari",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52016556",
+        "tenantId": null
+      },
+      {
+        "reference": "1826fe2d-81a8-4fe7-a6c7-f254a8b4bd84",
+        "email": "Richie_Christiansen@yahoo.com",
+        "firstName": "Adolphus",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48939686",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "cf886bb3-be00-4603-b3ba-4316bb55f243",
+        "username": "john.doe",
+        "password": "pass123",
+        "email": "john.doe@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "role": "admin",
+        "created_at": "2023-08-27T09:15:53.665Z",
+        "updated_at": "2023-08-27T21:57:52.709Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c5471504-1610-41c4-bb21-d049f71435aa",
+        "username": "jane.smith",
+        "password": "secure456",
+        "email": "jane.smith@example.com",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "role": "user",
+        "created_at": "2023-08-27T18:45:41.760Z",
+        "updated_at": "2023-08-27T17:14:07.053Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4a8693fb-912c-49f5-8656-3c752d18cd2e",
+        "username": "michael.brown",
+        "password": "secret789",
+        "email": "michael.brown@example.com",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "role": "owner",
+        "created_at": "2023-08-28T00:08:22.490Z",
+        "updated_at": "2023-08-28T00:44:28.374Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ad4c9903-d843-416f-a2b3-5936f0b210b7",
+        "username": "sarah.johnson",
+        "password": "password123",
+        "email": "sarah.johnson@example.com",
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "role": "manager",
+        "created_at": "2023-08-27T22:51:38.825Z",
+        "updated_at": "2023-08-27T07:01:13.170Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a7255e0b-d0ef-46d6-9df8-5c20810c3e0c",
+        "username": "robert.wilson",
+        "password": "admin@123",
+        "email": "robert.wilson@example.com",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "role": "employee",
+        "created_at": "2023-08-27T14:28:40.928Z",
+        "updated_at": "2023-08-27T23:32:02.451Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "385bfecc-3d19-453e-a294-316596cfc8d5",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 8581,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-08-27T04:23:43.612Z",
+        "updated_at": "2023-08-28T02:13:02.691Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ac551473-5621-40f2-a6b4-0579debc0ceb",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 14709,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "status": "Rented",
+        "created_at": "2023-08-27T22:11:35.503Z",
+        "updated_at": "2023-08-27T22:58:04.263Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "85c57c7e-7a22-4491-bb80-9066dc60571c",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 53833,
+        "color": "Green",
+        "license_plate": "123456",
+        "status": "Maintenance",
+        "created_at": "2023-08-27T21:26:44.446Z",
+        "updated_at": "2023-08-27T04:22:33.459Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bdb46cca-cd38-496a-9550-69066ffc5de9",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 40491,
+        "color": "Black",
+        "license_plate": "789ABC",
+        "status": "Out of Service",
+        "created_at": "2023-08-27T17:20:26.033Z",
+        "updated_at": "2023-08-27T08:58:39.147Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "56f3565a-634f-4f7a-8477-b636a5108afa",
+        "make": "BMW",
+        "model": "X5",
+        "year": 54588,
+        "color": "White",
+        "license_plate": "456XYZ",
+        "status": "Reserved",
+        "created_at": "2023-08-27T09:22:54.642Z",
+        "updated_at": "2023-08-27T15:40:57.214Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1298e560-3b25-4cd3-9baa-1e8b8d980dc5",
+        "start_time": "2023-08-27T17:53:26.512Z",
+        "end_time": "2023-08-27T23:20:07.749Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Airport",
+        "status": "Pending",
+        "created_at": "2023-08-27T04:36:43.957Z",
+        "updated_at": "2023-08-27T15:58:29.419Z",
+        "car_id": "56f3565a-634f-4f7a-8477-b636a5108afa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11728b69-cd1f-4cd7-9ae4-76fdb12730f9",
+        "start_time": "2023-08-27T17:38:59.632Z",
+        "end_time": "2023-08-27T19:39:09.768Z",
+        "pickup_location": "Downtown",
+        "dropoff_location": "Downtown",
+        "status": "Confirmed",
+        "created_at": "2023-08-28T03:25:32.291Z",
+        "updated_at": "2023-08-28T01:28:15.544Z",
+        "car_id": "85c57c7e-7a22-4491-bb80-9066dc60571c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52fa1195-5e3e-4ee4-82bf-d9a29df42c3c",
+        "start_time": "2023-08-27T12:04:10.484Z",
+        "end_time": "2023-08-27T04:53:57.719Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Train Station",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T13:02:22.696Z",
+        "updated_at": "2023-08-27T16:21:16.038Z",
+        "car_id": "bdb46cca-cd38-496a-9550-69066ffc5de9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "441cbc00-4843-4517-80fb-2f8808d4f20d",
+        "start_time": "2023-08-27T15:43:39.239Z",
+        "end_time": "2023-08-27T20:09:25.962Z",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Shopping Mall",
+        "status": "Completed",
+        "created_at": "2023-08-27T18:53:20.065Z",
+        "updated_at": "2023-08-28T01:05:23.190Z",
+        "car_id": "56f3565a-634f-4f7a-8477-b636a5108afa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51780d66-f13c-4af6-80a0-87c60739ac33",
+        "start_time": "2023-08-27T09:40:35.529Z",
+        "end_time": "2023-08-27T22:26:47.011Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Hotel",
+        "status": "In Progress",
+        "created_at": "2023-08-27T19:17:09.733Z",
+        "updated_at": "2023-08-27T07:27:43.345Z",
+        "car_id": "bdb46cca-cd38-496a-9550-69066ffc5de9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin": [
+      {
+        "id": "84cbada8-0b3d-4215-b701-d25b6b02dc22",
+        "username": "admin1",
+        "password": "admin@123",
+        "email": "admin1@example.com",
+        "first_name": "Admin",
+        "last_name": "One",
+        "role": "admin",
+        "created_at": "2023-08-27T07:41:45.145Z",
+        "updated_at": "2023-08-27T15:45:52.219Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7fcb1445-366a-4a0a-9a48-0b3153a9789d",
+        "username": "admin2",
+        "password": "password123",
+        "email": "admin2@example.com",
+        "first_name": "Super",
+        "last_name": "Two",
+        "role": "superadmin",
+        "created_at": "2023-08-27T07:01:28.144Z",
+        "updated_at": "2023-08-28T03:16:38.945Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0f0e300a-9503-4b06-a3d5-51b6fee9e0af",
+        "username": "admin3",
+        "password": "secure456",
+        "email": "admin3@example.com",
+        "first_name": "Master",
+        "last_name": "Three",
+        "role": "manager",
+        "created_at": "2023-08-27T16:48:40.477Z",
+        "updated_at": "2023-08-27T13:18:29.312Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "59b06ce3-002f-46ec-bddd-fa743a56ecff",
+        "username": "admin4",
+        "password": "secret789",
+        "email": "admin4@example.com",
+        "first_name": "System",
+        "last_name": "Four",
+        "role": "supervisor",
+        "created_at": "2023-08-27T22:20:30.673Z",
+        "updated_at": "2023-08-27T23:38:20.084Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1fa689bf-b5df-4aa0-a5da-977bfa89d969",
+        "username": "admin5",
+        "password": "pass123",
+        "email": "admin5@example.com",
+        "first_name": "Root",
+        "last_name": "Five",
+        "role": "executive",
+        "created_at": "2023-08-27T18:55:11.880Z",
+        "updated_at": "2023-08-27T20:48:30.582Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e69881d0-5874-4341-a010-8b529be037c9",
+        "email": "Margie.Wyman@gmail.com",
+        "firstName": "Nia",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48421295",
+        "tenantId": null
+      },
+      {
+        "reference": "5c2c822c-f30e-409f-b8c7-ac1dc90b8a06",
+        "email": "Aliza75@yahoo.com",
+        "firstName": "Kiarra",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42780419",
+        "tenantId": null
+      },
+      {
+        "reference": "35ade30e-5329-4027-8678-04083cfac048",
+        "email": "Derrick89@yahoo.com",
+        "firstName": "Carmelo",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/378.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b8cc38d6-73ae-418a-8b7d-92f2392159ee",
+        "email": "Laurie.Jacobson78@hotmail.com",
+        "firstName": "Ferne",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/654.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7f1e8c0-c21f-461c-a925-42ef609ae290",
+        "email": "Carlie_Mosciski@yahoo.com",
+        "firstName": "Norris",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34871888",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "4221f7ba-28e5-4bdf-be6b-b0a2eb8e3dcc",
+        "username": "john.doe",
+        "password": "p@ssw0rd",
+        "email": "john.doe@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "role": "admin",
+        "created_at": "2023-08-27T16:07:53.280Z",
+        "updated_at": "2023-08-28T01:27:45.215Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7d806ae7-b035-4944-b9c4-f1400636ee03",
+        "username": "jane.smith",
+        "password": "s3cur3pwd",
+        "email": "jane.smith@example.com",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "role": "manager",
+        "created_at": "2023-08-27T07:23:43.040Z",
+        "updated_at": "2023-08-27T23:05:34.097Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bf92ccc0-826d-46d8-9005-5c49129dc4b4",
+        "username": "michael.brown",
+        "password": "12345678",
+        "email": "michael.brown@example.com",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "role": "employee",
+        "created_at": "2023-08-28T02:37:56.844Z",
+        "updated_at": "2023-08-27T20:37:15.330Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "151c367c-7c4a-4358-aff6-20bb0cc9e251",
+        "username": "sarah.jones",
+        "password": "password123",
+        "email": "sarah.jones@example.com",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "role": "supervisor",
+        "created_at": "2023-08-27T07:30:14.630Z",
+        "updated_at": "2023-08-27T05:27:56.172Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8caa4140-31fb-4404-816a-f747c344312d",
+        "username": "david.wilson",
+        "password": "qwerty123",
+        "email": "david.wilson@example.com",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "role": "team lead",
+        "created_at": "2023-08-27T22:15:14.010Z",
+        "updated_at": "2023-08-27T14:41:15.542Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "73574628-a608-4009-a499-efa175e17fcb",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 89037,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "status": "available",
+        "created_at": "2023-08-27T06:30:26.004Z",
+        "updated_at": "2023-08-27T16:18:16.724Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ea461d26-7e02-4cb8-aa9c-60cb5abf8f6e",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 39473,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "status": "rented",
+        "created_at": "2023-08-28T00:19:38.527Z",
+        "updated_at": "2023-08-28T02:36:24.946Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a39a48dd-b5a8-4e97-8e77-c512949394d0",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 49452,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "status": "maintenance",
+        "created_at": "2023-08-27T08:41:21.260Z",
+        "updated_at": "2023-08-27T21:44:56.452Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "544c8ce0-4327-4f23-8fde-ca4e54c3d47b",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 55692,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "status": "unavailable",
+        "created_at": "2023-08-28T03:15:25.762Z",
+        "updated_at": "2023-08-27T13:43:02.474Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8913d515-4734-49fa-9671-45bd47b50ea4",
+        "make": "BMW",
+        "model": "X5",
+        "year": 37654,
+        "color": "White",
+        "license_plate": "DEF456",
+        "status": "reserved",
+        "created_at": "2023-08-27T11:19:03.894Z",
+        "updated_at": "2023-08-27T13:04:49.488Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "29cd5b09-f950-4972-8bef-668c32976bbb",
+        "start_time": "2023-08-27T23:04:48.863Z",
+        "end_time": "2023-08-27T06:04:43.996Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Beach",
+        "status": "pending",
+        "created_at": "2023-08-27T22:36:49.833Z",
+        "updated_at": "2023-08-27T14:37:50.906Z",
+        "car_id": "8913d515-4734-49fa-9671-45bd47b50ea4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7b96d68-e9b3-4112-8a56-1a7f59ebeb76",
+        "start_time": "2023-08-27T23:07:53.529Z",
+        "end_time": "2023-08-28T01:58:43.261Z",
+        "pickup_location": "Downtown",
+        "dropoff_location": "Park",
+        "status": "confirmed",
+        "created_at": "2023-08-28T01:02:27.936Z",
+        "updated_at": "2023-08-27T19:53:54.750Z",
+        "car_id": "ea461d26-7e02-4cb8-aa9c-60cb5abf8f6e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7ed798b-ef92-43c9-967a-044a1ddc1bef",
+        "start_time": "2023-08-27T08:42:12.705Z",
+        "end_time": "2023-08-27T11:07:32.362Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Restaurant",
+        "status": "completed",
+        "created_at": "2023-08-27T12:40:36.409Z",
+        "updated_at": "2023-08-28T01:41:58.535Z",
+        "car_id": "73574628-a608-4009-a499-efa175e17fcb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23d2bce9-4145-494d-8577-50a65c0b8ca3",
+        "start_time": "2023-08-28T04:01:21.821Z",
+        "end_time": "2023-08-27T11:17:10.528Z",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Museum",
+        "status": "cancelled",
+        "created_at": "2023-08-27T23:59:11.982Z",
+        "updated_at": "2023-08-28T00:55:53.367Z",
+        "car_id": "8913d515-4734-49fa-9671-45bd47b50ea4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14ede275-3898-4e55-be0a-6d9a45f529c1",
+        "start_time": "2023-08-27T18:09:11.972Z",
+        "end_time": "2023-08-27T06:56:04.783Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Office",
+        "status": "expired",
+        "created_at": "2023-08-27T04:45:48.928Z",
+        "updated_at": "2023-08-27T11:51:26.434Z",
+        "car_id": "a39a48dd-b5a8-4e97-8e77-c512949394d0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin": [
+      {
+        "id": "842d5d80-5ea3-4a7b-a4a2-51c28b212184",
+        "username": "admin1",
+        "password": "admin123",
+        "email": "admin1@example.com",
+        "first_name": "Admin",
+        "last_name": "One",
+        "role": "admin",
+        "created_at": "2023-08-27T10:41:23.691Z",
+        "updated_at": "2023-08-27T21:53:45.327Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e5ad72b-0d98-4657-832d-60965ac99148",
+        "username": "admin2",
+        "password": "password123",
+        "email": "admin2@example.com",
+        "first_name": "Super",
+        "last_name": "Two",
+        "role": "superadmin",
+        "created_at": "2023-08-27T04:29:32.666Z",
+        "updated_at": "2023-08-27T15:21:54.788Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5ab9eb01-768b-4355-8618-5df1c3c0c193",
+        "username": "admin3",
+        "password": "admin@123",
+        "email": "admin3@example.com",
+        "first_name": "Master",
+        "last_name": "Three",
+        "role": "rootadmin",
+        "created_at": "2023-08-27T20:19:25.409Z",
+        "updated_at": "2023-08-27T06:37:59.275Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4a7c2ff2-953f-4623-8d5c-66f1b51b0a43",
+        "username": "admin4",
+        "password": "adminpass",
+        "email": "admin4@example.com",
+        "first_name": "System",
+        "last_name": "Four",
+        "role": "systemadmin",
+        "created_at": "2023-08-27T23:25:03.904Z",
+        "updated_at": "2023-08-28T01:05:04.590Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3b565b05-e676-4455-ad08-8d066e03e51d",
+        "username": "admin5",
+        "password": "admin!@#",
+        "email": "admin5@example.com",
+        "first_name": "Root",
+        "last_name": "Five",
+        "role": "masteradmin",
+        "created_at": "2023-08-27T04:58:14.021Z",
+        "updated_at": "2023-08-27T23:56:46.794Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9e0f5b47-a152-4539-a0a0-a0cadeeea141",
+        "email": "Angelita.Langosh8@gmail.com",
+        "firstName": "Kallie",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/309.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c03bcaf6-b735-444e-8c7a-8af5d53c1c34",
+        "email": "Mavis.Schulist81@yahoo.com",
+        "firstName": "Jalyn",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81286592",
+        "tenantId": null
+      },
+      {
+        "reference": "7b8ee1d4-2079-4f0d-9890-69ae06610655",
+        "email": "Dallas89@hotmail.com",
+        "firstName": "Clair",
+        "lastName": "Jaskolski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17923488",
+        "tenantId": null
+      },
+      {
+        "reference": "29273ffa-62e6-4db6-9481-bf81304463a3",
+        "email": "Cruz.Weissnat@hotmail.com",
+        "firstName": "Richie",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73681118",
+        "tenantId": null
+      },
+      {
+        "reference": "7eb59575-49c0-4290-b235-47e6de8cce48",
+        "email": "Koby.Towne99@gmail.com",
+        "firstName": "Alana",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/954.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "69ade7e5-4964-4973-b3f8-e33baf315ecf",
+        "username": "john.doe",
+        "password": "pass123",
+        "email": "john.doe@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "role": "admin",
+        "created_at": "2023-08-27T17:41:53.592Z",
+        "updated_at": "2023-08-27T15:53:45.562Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7e084b7f-0597-4ee5-86f6-e232a1c66f3c",
+        "username": "jane.smith",
+        "password": "secure456",
+        "email": "jane.smith@example.com",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "role": "manager",
+        "created_at": "2023-08-27T12:45:44.684Z",
+        "updated_at": "2023-08-27T21:21:42.878Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e0483d5b-22b0-48c5-ab74-2563eebfd8d6",
+        "username": "michael.brown",
+        "password": "password789",
+        "email": "michael.brown@example.com",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "role": "employee",
+        "created_at": "2023-08-27T07:41:08.171Z",
+        "updated_at": "2023-08-27T10:13:35.818Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "40b0165d-9ff2-49e5-af4e-614362a70b2b",
+        "username": "sarah.jones",
+        "password": "secret123",
+        "email": "sarah.jones@example.com",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "role": "supervisor",
+        "created_at": "2023-08-27T11:51:47.355Z",
+        "updated_at": "2023-08-27T09:03:08.138Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "21e203a3-a167-497f-9c32-935034574961",
+        "username": "robert.johnson",
+        "password": "12345678",
+        "email": "robert.johnson@example.com",
+        "first_name": "Robert",
+        "last_name": "Johnson",
+        "role": "director",
+        "created_at": "2023-08-27T17:19:34.290Z",
+        "updated_at": "2023-08-27T06:13:20.415Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "9ce24172-5dc5-4d74-a568-41bed2ff4e7e",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 25543,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-08-27T09:45:30.847Z",
+        "updated_at": "2023-08-27T21:19:57.533Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "620232f6-6ae0-4da3-8d76-4035ee8bf6a4",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 24244,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "status": "Rented",
+        "created_at": "2023-08-27T06:08:44.849Z",
+        "updated_at": "2023-08-27T22:11:27.200Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a4555310-eed6-44ee-8394-a02c5f1b9d49",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 97392,
+        "color": "Black",
+        "license_plate": "123456",
+        "status": "In Repair",
+        "created_at": "2023-08-27T22:15:59.313Z",
+        "updated_at": "2023-08-27T05:06:12.966Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d59844ba-416a-4227-b610-093c83a8252a",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 24606,
+        "color": "White",
+        "license_plate": "789ABC",
+        "status": "Reserved",
+        "created_at": "2023-08-28T02:18:36.055Z",
+        "updated_at": "2023-08-27T13:46:22.801Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cc2cf21f-f2c5-4a94-a6bb-11ec8dd88b70",
+        "make": "BMW",
+        "model": "X5",
+        "year": 84096,
+        "color": "Silver",
+        "license_plate": "456XYZ",
+        "status": "Out of Service",
+        "created_at": "2023-08-27T07:38:44.556Z",
+        "updated_at": "2023-08-28T03:07:47.132Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d9af71b5-2f10-4814-be77-82ee142b57d0",
+        "start_time": "2023-08-27T16:33:21.009Z",
+        "end_time": "2023-08-28T02:35:06.613Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "status": "Confirmed",
+        "created_at": "2023-08-27T06:08:22.496Z",
+        "updated_at": "2023-08-28T02:24:37.620Z",
+        "car_id": "d59844ba-416a-4227-b610-093c83a8252a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ef73698-447a-4258-9794-a72209929d4d",
+        "start_time": "2023-08-27T17:54:37.920Z",
+        "end_time": "2023-08-28T02:14:55.637Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "status": "Pending",
+        "created_at": "2023-08-27T13:42:29.088Z",
+        "updated_at": "2023-08-27T14:43:40.292Z",
+        "car_id": "d59844ba-416a-4227-b610-093c83a8252a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "277f9053-b4f8-487e-b278-e35b0a9afc3d",
+        "start_time": "2023-08-27T19:24:05.914Z",
+        "end_time": "2023-08-27T16:02:54.754Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T08:04:17.891Z",
+        "updated_at": "2023-08-27T08:49:45.728Z",
+        "car_id": "9ce24172-5dc5-4d74-a568-41bed2ff4e7e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38625318-2cb8-42e9-8131-a782d7cbfa41",
+        "start_time": "2023-08-27T21:25:14.020Z",
+        "end_time": "2023-08-27T16:28:33.927Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "status": "Completed",
+        "created_at": "2023-08-27T04:37:28.487Z",
+        "updated_at": "2023-08-27T09:14:29.869Z",
+        "car_id": "a4555310-eed6-44ee-8394-a02c5f1b9d49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8469b0cc-6acc-47ed-878a-41dcd468778a",
+        "start_time": "2023-08-27T04:37:29.191Z",
+        "end_time": "2023-08-27T15:33:56.365Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "status": "On Hold",
+        "created_at": "2023-08-28T03:50:55.592Z",
+        "updated_at": "2023-08-27T17:44:29.102Z",
+        "car_id": "620232f6-6ae0-4da3-8d76-4035ee8bf6a4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin": [
+      {
+        "id": "3c61d144-d49f-4e83-8bf3-35515cbb8b8e",
+        "username": "admin1",
+        "password": "adminpass1",
+        "email": "admin1@example.com",
+        "first_name": "Admin 1",
+        "last_name": "Lastname 1",
+        "role": "superadmin",
+        "created_at": "2023-08-27T17:41:57.722Z",
+        "updated_at": "2023-08-27T23:10:09.261Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2531f01f-8283-44c4-b63c-672a0268f6b8",
+        "username": "admin2",
+        "password": "adminpass2",
+        "email": "admin2@example.com",
+        "first_name": "Admin 2",
+        "last_name": "Lastname 2",
+        "role": "admin",
+        "created_at": "2023-08-27T10:16:19.671Z",
+        "updated_at": "2023-08-27T14:05:21.722Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8e3e8425-b084-4f7f-be4a-27808e9f58f0",
+        "username": "admin3",
+        "password": "adminpass3",
+        "email": "admin3@example.com",
+        "first_name": "Admin 3",
+        "last_name": "Lastname 3",
+        "role": "manager",
+        "created_at": "2023-08-27T22:21:43.707Z",
+        "updated_at": "2023-08-27T17:05:36.176Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a49d08bc-353f-4bd0-afb1-0cd6c030af60",
+        "username": "admin4",
+        "password": "adminpass4",
+        "email": "admin4@example.com",
+        "first_name": "Admin 4",
+        "last_name": "Lastname 4",
+        "role": "supervisor",
+        "created_at": "2023-08-27T22:23:51.665Z",
+        "updated_at": "2023-08-27T16:38:36.643Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a34a9fb9-db13-45c6-99a1-7e859615b648",
+        "username": "admin5",
+        "password": "adminpass5",
+        "email": "admin5@example.com",
+        "first_name": "Admin 5",
+        "last_name": "Lastname 5",
+        "role": "support",
+        "created_at": "2023-08-28T03:52:33.112Z",
+        "updated_at": "2023-08-27T14:10:43.959Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f530eeb8-c5a2-4af1-a9a2-0b7107ac732a",
+        "email": "Dejon.Von@hotmail.com",
+        "firstName": "Dante",
+        "lastName": "Adams-Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/353984",
+        "tenantId": null
+      },
+      {
+        "reference": "79751007-eeef-4b8f-a3a2-268c0e491267",
+        "email": "Nikko_Funk@yahoo.com",
+        "firstName": "Anita",
+        "lastName": "Christiansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1029.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64739fb4-9d16-4766-9ed0-71bbed9a24b9",
+        "email": "Juana67@gmail.com",
+        "firstName": "Marlee",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37419783",
+        "tenantId": null
+      },
+      {
+        "reference": "3b1c1656-2ccf-4bc4-ab1f-08f8cc417f0c",
+        "email": "Jenifer24@gmail.com",
+        "firstName": "Justina",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/251.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2cd50e9b-1d03-4db9-b432-03fb91e64b5a",
+        "email": "Alberto_Breitenberg-Kessler@gmail.com",
+        "firstName": "Kyle",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/635.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "500331a8-0aa2-4231-9292-0b0bd276b67e",
+        "username": "john.doe",
+        "password": "p@ssw0rd",
+        "email": "john.doe@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "role": "admin",
+        "created_at": "2023-08-28T03:02:33.376Z",
+        "updated_at": "2023-08-28T01:57:36.021Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c96bed31-19b7-487d-b631-ac3e0695c63f",
+        "username": "jane.smith",
+        "password": "secure123",
+        "email": "jane.smith@example.com",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "role": "manager",
+        "created_at": "2023-08-27T16:04:15.710Z",
+        "updated_at": "2023-08-27T08:04:29.165Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "52b3bf79-459c-4d49-a748-e838d8cb698c",
+        "username": "michael.brown",
+        "password": "password123",
+        "email": "michael.brown@example.com",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "role": "employee",
+        "created_at": "2023-08-28T03:53:39.203Z",
+        "updated_at": "2023-08-28T03:39:33.927Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3cb453c8-dc74-4888-b90b-c4d1eba4eab3",
+        "username": "sarah.jones",
+        "password": "12345678",
+        "email": "sarah.jones@example.com",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "role": "supervisor",
+        "created_at": "2023-08-27T08:08:29.003Z",
+        "updated_at": "2023-08-27T10:30:39.090Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5ca95121-06d7-43ed-88a0-ecb04466e714",
+        "username": "david.wilson",
+        "password": "qwerty",
+        "email": "david.wilson@example.com",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "role": "consultant",
+        "created_at": "2023-08-27T15:05:03.792Z",
+        "updated_at": "2023-08-27T10:02:22.205Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "ddb2d5f9-2e62-444a-bcff-806179c38423",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 19490,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-08-27T20:06:14.636Z",
+        "updated_at": "2023-08-27T14:11:21.937Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "eb131be9-a23b-42ff-a3f1-912540bc5b98",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 39265,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "status": "Rented",
+        "created_at": "2023-08-27T05:40:26.040Z",
+        "updated_at": "2023-08-27T09:43:20.055Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4da8804d-f4b9-4370-b067-01cdaac8f38f",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 49735,
+        "color": "Black",
+        "license_plate": "123456",
+        "status": "Out of Service",
+        "created_at": "2023-08-28T03:41:05.722Z",
+        "updated_at": "2023-08-27T16:25:40.537Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "df34f20b-180b-40ea-b93e-049b6435ebab",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 11278,
+        "color": "White",
+        "license_plate": "789ABC",
+        "status": "Maintenance",
+        "created_at": "2023-08-28T00:59:21.350Z",
+        "updated_at": "2023-08-27T21:37:14.685Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "669175bb-c6dc-46da-a765-3b058cd3cce3",
+        "make": "BMW",
+        "model": "X5",
+        "year": 55165,
+        "color": "Silver",
+        "license_plate": "DEF456",
+        "status": "Reserved",
+        "created_at": "2023-08-27T08:01:15.797Z",
+        "updated_at": "2023-08-27T05:58:01.687Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "bdd21b87-4964-4e1f-9518-bb82ba9bb847",
+        "start_time": "2023-08-27T11:12:14.834Z",
+        "end_time": "2023-08-27T14:00:13.003Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City center",
+        "status": "Pending",
+        "created_at": "2023-08-27T19:15:03.816Z",
+        "updated_at": "2023-08-27T19:56:15.544Z",
+        "car_id": "eb131be9-a23b-42ff-a3f1-912540bc5b98",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fd5c6f3-1a77-4177-b4ad-b613a2a4be80",
+        "start_time": "2023-08-27T13:51:30.411Z",
+        "end_time": "2023-08-27T10:29:45.655Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "status": "Confirmed",
+        "created_at": "2023-08-27T23:17:36.813Z",
+        "updated_at": "2023-08-27T07:25:46.069Z",
+        "car_id": "ddb2d5f9-2e62-444a-bcff-806179c38423",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52c41500-e54c-4bb7-a533-811b338de755",
+        "start_time": "2023-08-27T22:19:04.868Z",
+        "end_time": "2023-08-27T19:57:12.363Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T23:17:02.794Z",
+        "updated_at": "2023-08-27T20:51:17.679Z",
+        "car_id": "669175bb-c6dc-46da-a765-3b058cd3cce3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28a7128b-8b52-4174-8a46-036ec64c4ed3",
+        "start_time": "2023-08-27T21:29:05.055Z",
+        "end_time": "2023-08-28T00:25:36.376Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "status": "Completed",
+        "created_at": "2023-08-27T15:57:10.171Z",
+        "updated_at": "2023-08-27T13:56:53.131Z",
+        "car_id": "669175bb-c6dc-46da-a765-3b058cd3cce3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "858ddd6b-9aa4-410b-a61d-d515ef555bb0",
+        "start_time": "2023-08-27T17:51:49.013Z",
+        "end_time": "2023-08-28T03:36:23.329Z",
+        "pickup_location": "Residential area",
+        "dropoff_location": "Beach",
+        "status": "In Progress",
+        "created_at": "2023-08-27T20:18:44.861Z",
+        "updated_at": "2023-08-27T14:48:00.015Z",
+        "car_id": "ddb2d5f9-2e62-444a-bcff-806179c38423",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin": [
+      {
+        "id": "67326ba9-90a5-4246-beaa-a00a09e6df2d",
+        "username": "admin1",
+        "password": "admin@123",
+        "email": "admin1@example.com",
+        "first_name": "Admin",
+        "last_name": "One",
+        "role": "admin",
+        "created_at": "2023-08-27T12:53:40.210Z",
+        "updated_at": "2023-08-27T18:38:03.906Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b8936a8f-505a-4273-8e47-c648dd8a6bde",
+        "username": "admin2",
+        "password": "password123",
+        "email": "admin2@example.com",
+        "first_name": "Super",
+        "last_name": "Two",
+        "role": "superadmin",
+        "created_at": "2023-08-28T01:35:49.884Z",
+        "updated_at": "2023-08-27T19:28:51.901Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0047d799-5bea-4065-93de-a50c5e8eff80",
+        "username": "admin3",
+        "password": "admin123",
+        "email": "admin3@example.com",
+        "first_name": "Master",
+        "last_name": "Three",
+        "role": "administrator",
+        "created_at": "2023-08-27T07:15:01.283Z",
+        "updated_at": "2023-08-27T18:42:48.693Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7ca9f4d9-65d0-4d24-b1ad-43783ee645ae",
+        "username": "admin4",
+        "password": "12345678",
+        "email": "admin4@example.com",
+        "first_name": "System",
+        "last_name": "Four",
+        "role": "manager",
+        "created_at": "2023-08-27T11:23:24.561Z",
+        "updated_at": "2023-08-27T09:00:01.111Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b46d707d-9848-40f2-97f3-d19e010c97e4",
+        "username": "admin5",
+        "password": "qwerty",
+        "email": "admin5@example.com",
+        "first_name": "Root",
+        "last_name": "Five",
+        "role": "supervisor",
+        "created_at": "2023-08-27T22:48:31.876Z",
+        "updated_at": "2023-08-27T21:52:36.887Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "106839b2-6858-4877-8bfc-a30e7b5900a3",
+        "email": "Rylan_Abernathy@yahoo.com",
+        "firstName": "Mireille",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60406491",
+        "tenantId": null
+      },
+      {
+        "reference": "21bb24b2-f824-45bb-a5fa-9b3aa7d06eb2",
+        "email": "Georgianna_Weimann@hotmail.com",
+        "firstName": "Einar",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11531737",
+        "tenantId": null
+      },
+      {
+        "reference": "de6c4089-9fe1-4f9f-a1f3-14ba00f0bb01",
+        "email": "Layne49@gmail.com",
+        "firstName": "Eloise",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70913444",
+        "tenantId": null
+      },
+      {
+        "reference": "9345f14b-fe11-419c-8f90-d4c5f8bf2ccc",
+        "email": "Tanner98@gmail.com",
+        "firstName": "Bettie",
+        "lastName": "Ankunding-Torphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/690.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c6655798-4269-47e8-a85b-4d88bd9b5831",
+        "email": "Cayla35@yahoo.com",
+        "firstName": "Loraine",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/840.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "8131b434-c7e9-4407-988a-95f94e51a39e",
+        "username": "john123",
+        "password": "password1",
+        "email": "john.doe@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "role": "admin",
+        "created_at": "2023-08-27T21:15:09.440Z",
+        "updated_at": "2023-08-28T01:16:21.882Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a2a0120e-0479-4c7a-9b22-e79f01e63806",
+        "username": "jane456",
+        "password": "password2",
+        "email": "jane.smith@example.com",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "role": "manager",
+        "created_at": "2023-08-27T21:51:53.308Z",
+        "updated_at": "2023-08-27T19:08:21.594Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7fa1d2a3-2a7e-454f-9904-1d3f124bb666",
+        "username": "michael789",
+        "password": "password3",
+        "email": "michael.johnson@example.com",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "role": "employee",
+        "created_at": "2023-08-28T02:44:35.950Z",
+        "updated_at": "2023-08-28T02:34:45.192Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c114214f-963a-4d29-82a9-0f9996ceda7f",
+        "username": "sarah321",
+        "password": "password4",
+        "email": "sarah.wilson@example.com",
+        "first_name": "Sarah",
+        "last_name": "Wilson",
+        "role": "supervisor",
+        "created_at": "2023-08-27T19:11:30.037Z",
+        "updated_at": "2023-08-27T21:12:55.264Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9a1e3042-4bbc-4597-a70a-414c1086a08a",
+        "username": "robert654",
+        "password": "password5",
+        "email": "robert.brown@example.com",
+        "first_name": "Robert",
+        "last_name": "Brown",
+        "role": "director",
+        "created_at": "2023-08-28T00:07:01.231Z",
+        "updated_at": "2023-08-27T05:31:29.738Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "9c97831f-2a00-4285-ac23-89f642693a29",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 28161,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "status": "available",
+        "created_at": "2023-08-27T08:07:41.406Z",
+        "updated_at": "2023-08-27T09:32:48.662Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "97c78656-b812-4f9b-9b78-4c4aa8ac5938",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 97766,
+        "color": "Blue",
+        "license_plate": "XYZ456",
+        "status": "rented",
+        "created_at": "2023-08-27T23:33:40.802Z",
+        "updated_at": "2023-08-27T05:44:35.633Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5fded57f-8e54-44a5-a01d-810f626f4573",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 54156,
+        "color": "Black",
+        "license_plate": "123ABC",
+        "status": "maintenance",
+        "created_at": "2023-08-28T03:29:15.997Z",
+        "updated_at": "2023-08-27T06:46:08.918Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "22ce4041-9549-4439-87fa-69b92fd67c24",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 34706,
+        "color": "White",
+        "license_plate": "456XYZ",
+        "status": "unavailable",
+        "created_at": "2023-08-27T06:23:32.330Z",
+        "updated_at": "2023-08-28T00:05:18.306Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e224931d-fe4f-474e-8823-3e683d29c87d",
+        "make": "BMW",
+        "model": "X5",
+        "year": 56271,
+        "color": "Silver",
+        "license_plate": "789DEF",
+        "status": "reserved",
+        "created_at": "2023-08-27T05:34:44.284Z",
+        "updated_at": "2023-08-27T15:15:09.412Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "9133b435-09df-4036-bdb1-6d36bf7df732",
+        "start_time": "2023-08-28T03:18:44.363Z",
+        "end_time": "2023-08-27T23:08:50.017Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Beach",
+        "status": "pending",
+        "created_at": "2023-08-27T09:55:17.101Z",
+        "updated_at": "2023-08-27T11:08:03.064Z",
+        "car_id": "22ce4041-9549-4439-87fa-69b92fd67c24",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc7ac682-d85f-40ce-be88-8876191a41fd",
+        "start_time": "2023-08-27T20:50:43.760Z",
+        "end_time": "2023-08-27T10:01:47.576Z",
+        "pickup_location": "Downtown",
+        "dropoff_location": "Park",
+        "status": "confirmed",
+        "created_at": "2023-08-27T17:52:13.178Z",
+        "updated_at": "2023-08-27T13:36:53.416Z",
+        "car_id": "e224931d-fe4f-474e-8823-3e683d29c87d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82867d2f-7ba4-4a80-8f1f-bce2ad68375c",
+        "start_time": "2023-08-27T04:52:53.781Z",
+        "end_time": "2023-08-27T20:46:28.613Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Restaurant",
+        "status": "cancelled",
+        "created_at": "2023-08-27T19:01:53.602Z",
+        "updated_at": "2023-08-27T12:58:49.406Z",
+        "car_id": "9c97831f-2a00-4285-ac23-89f642693a29",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bec21a9c-9337-48bf-ae66-8085fc198b03",
+        "start_time": "2023-08-27T20:52:03.151Z",
+        "end_time": "2023-08-27T22:38:16.165Z",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Museum",
+        "status": "completed",
+        "created_at": "2023-08-28T02:56:04.195Z",
+        "updated_at": "2023-08-27T17:09:08.724Z",
+        "car_id": "22ce4041-9549-4439-87fa-69b92fd67c24",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9e26143-fc04-465d-a911-f45a06a7edfe",
+        "start_time": "2023-08-27T13:54:43.013Z",
+        "end_time": "2023-08-27T17:48:42.854Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Office",
+        "status": "in progress",
+        "created_at": "2023-08-27T15:05:26.721Z",
+        "updated_at": "2023-08-28T02:35:05.000Z",
+        "car_id": "9c97831f-2a00-4285-ac23-89f642693a29",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin": [
+      {
+        "id": "538f55a8-a209-4485-9a58-e9fb74fe2a9f",
+        "username": "admin1",
+        "password": "adminpass1",
+        "email": "admin1@example.com",
+        "first_name": "Admin",
+        "last_name": "One",
+        "role": "administrator",
+        "created_at": "2023-08-27T14:51:32.602Z",
+        "updated_at": "2023-08-27T11:51:43.434Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9cfd94d0-805b-4c43-97ba-0e87f240af15",
+        "username": "admin2",
+        "password": "adminpass2",
+        "email": "admin2@example.com",
+        "first_name": "Super",
+        "last_name": "Two",
+        "role": "superuser",
+        "created_at": "2023-08-27T05:48:48.373Z",
+        "updated_at": "2023-08-28T03:39:31.133Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7667ade9-2740-42e5-960a-2834f4fc9e25",
+        "username": "admin3",
+        "password": "adminpass3",
+        "email": "admin3@example.com",
+        "first_name": "Master",
+        "last_name": "Three",
+        "role": "manager",
+        "created_at": "2023-08-27T15:05:01.314Z",
+        "updated_at": "2023-08-28T00:23:01.887Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a01731b9-6f2a-45a7-ab05-99a1382c6b1e",
+        "username": "admin4",
+        "password": "adminpass4",
+        "email": "admin4@example.com",
+        "first_name": "System",
+        "last_name": "Four",
+        "role": "supervisor",
+        "created_at": "2023-08-27T11:30:55.480Z",
+        "updated_at": "2023-08-27T11:15:16.308Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5964d35b-6baa-4697-9c46-942134bca3d7",
+        "username": "admin5",
+        "password": "adminpass5",
+        "email": "admin5@example.com",
+        "first_name": "Root",
+        "last_name": "Five",
+        "role": "executive",
+        "created_at": "2023-08-27T06:47:07.516Z",
+        "updated_at": "2023-08-28T04:21:01.817Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dd1c32af-2184-47e1-a210-1f6a23723625",
+        "email": "Jean16@yahoo.com",
+        "firstName": "Marlene",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/246.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "008226ff-9e8a-4487-976e-48bc8626d11a",
+        "email": "Sebastian.Wilderman@hotmail.com",
+        "firstName": "Amelie",
+        "lastName": "Bruen-Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/396.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "52473aea-1866-4e37-9fe1-1bdd58f39ee1",
+        "email": "Domenica90@hotmail.com",
+        "firstName": "Allen",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61521233",
+        "tenantId": null
+      },
+      {
+        "reference": "93b825ab-bf95-46a0-8818-7d6fd51ea00e",
+        "email": "Kameron85@yahoo.com",
+        "firstName": "Teagan",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1029.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "05f6c6f3-8455-40c4-a8ff-f791f20cb4cd",
+        "email": "Amie_Howe@yahoo.com",
+        "firstName": "Jacquelyn",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/181.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "befb5548-be31-4835-b7a9-e14688f6c9ff",
+        "username": "john.doe",
+        "password": "p@ssw0rd",
+        "email": "john.doe@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "role": "admin",
+        "created_at": "2023-08-27T20:09:10.492Z",
+        "updated_at": "2023-08-27T15:33:29.677Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "774e0fdc-ee3c-468a-8789-c3b8290def3f",
+        "username": "jane.smith",
+        "password": "secure123",
+        "email": "jane.smith@example.com",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "role": "manager",
+        "created_at": "2023-08-27T15:00:43.795Z",
+        "updated_at": "2023-08-27T19:40:53.289Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "10408ccd-0470-4254-88d4-ca6d6da1d9b0",
+        "username": "michael.brown",
+        "password": "password123",
+        "email": "michael.brown@example.com",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "role": "employee",
+        "created_at": "2023-08-27T22:53:30.226Z",
+        "updated_at": "2023-08-27T23:59:32.637Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d29e9156-85cc-45c2-b6f1-9395b124401a",
+        "username": "sarah.jones",
+        "password": "letmein",
+        "email": "sarah.jones@example.com",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "role": "supervisor",
+        "created_at": "2023-08-27T12:55:39.611Z",
+        "updated_at": "2023-08-27T20:33:15.141Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "10e1eab1-33ca-4de0-b758-1bc8b05f689f",
+        "username": "robert.wilson",
+        "password": "qwerty123",
+        "email": "robert.wilson@example.com",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "role": "director",
+        "created_at": "2023-08-28T04:08:24.774Z",
+        "updated_at": "2023-08-27T18:15:44.971Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "a330d603-f003-4efb-92d7-4caf4f9fb432",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 17163,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "status": "available",
+        "created_at": "2023-08-27T16:56:16.844Z",
+        "updated_at": "2023-08-28T02:36:48.447Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "12ca345b-4ade-402b-a2e9-590cfb72a755",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 90193,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "status": "rented",
+        "created_at": "2023-08-27T17:52:12.925Z",
+        "updated_at": "2023-08-27T19:58:03.123Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a454df41-09b9-4af1-82c8-60d433beaf3e",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 34793,
+        "color": "Black",
+        "license_plate": "123456",
+        "status": "maintenance",
+        "created_at": "2023-08-27T14:28:55.579Z",
+        "updated_at": "2023-08-27T08:27:34.412Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5c6233f0-d180-40a6-819f-9e174d081b75",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 77391,
+        "color": "White",
+        "license_plate": "789ABC",
+        "status": "sold",
+        "created_at": "2023-08-27T12:42:02.528Z",
+        "updated_at": "2023-08-27T14:32:58.271Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "facf2c2b-1ed2-44f3-92ea-e9125a2c82a6",
+        "make": "BMW",
+        "model": "X5",
+        "year": 95999,
+        "color": "Silver",
+        "license_plate": "456XYZ",
+        "status": "unavailable",
+        "created_at": "2023-08-27T16:36:15.909Z",
+        "updated_at": "2023-08-27T12:15:05.880Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "ce57064f-a1d4-4399-a0ff-871fc04a8b7b",
+        "start_time": "2023-08-27T08:37:13.511Z",
+        "end_time": "2023-08-27T11:11:14.685Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Airport",
+        "status": "pending",
+        "created_at": "2023-08-27T04:56:52.409Z",
+        "updated_at": "2023-08-27T22:38:47.180Z",
+        "car_id": "a330d603-f003-4efb-92d7-4caf4f9fb432",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce9076f4-ca0b-4b0d-b234-0534bedb5a79",
+        "start_time": "2023-08-27T12:59:23.148Z",
+        "end_time": "2023-08-27T04:35:23.235Z",
+        "pickup_location": "Downtown",
+        "dropoff_location": "Downtown",
+        "status": "confirmed",
+        "created_at": "2023-08-27T12:38:15.037Z",
+        "updated_at": "2023-08-27T18:48:55.118Z",
+        "car_id": "a454df41-09b9-4af1-82c8-60d433beaf3e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9e9a6c6-20c8-43cf-bfcd-73c756d3c8fd",
+        "start_time": "2023-08-27T04:56:41.984Z",
+        "end_time": "2023-08-27T13:49:51.797Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Train station",
+        "status": "cancelled",
+        "created_at": "2023-08-27T12:22:40.260Z",
+        "updated_at": "2023-08-27T22:50:02.772Z",
+        "car_id": "12ca345b-4ade-402b-a2e9-590cfb72a755",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38971e3f-6b19-40f8-a292-183e9d6c80bb",
+        "start_time": "2023-08-27T21:57:56.159Z",
+        "end_time": "2023-08-28T02:02:28.633Z",
+        "pickup_location": "Shopping mall",
+        "dropoff_location": "Shopping mall",
+        "status": "completed",
+        "created_at": "2023-08-27T06:54:38.540Z",
+        "updated_at": "2023-08-28T00:29:23.773Z",
+        "car_id": "12ca345b-4ade-402b-a2e9-590cfb72a755",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc9a9c24-52ff-418e-a964-f31d113d4451",
+        "start_time": "2023-08-27T15:29:12.126Z",
+        "end_time": "2023-08-27T20:53:10.581Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Hotel",
+        "status": "in progress",
+        "created_at": "2023-08-27T15:48:44.517Z",
+        "updated_at": "2023-08-27T23:16:03.044Z",
+        "car_id": "a330d603-f003-4efb-92d7-4caf4f9fb432",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin": [
+      {
+        "id": "73ec9cab-2381-4845-9d69-2cef9adb0389",
+        "username": "admin1",
+        "password": "p@ssw0rd",
+        "email": "admin1@example.com",
+        "first_name": "Admin",
+        "last_name": "One",
+        "role": "admin",
+        "created_at": "2023-08-27T21:48:47.371Z",
+        "updated_at": "2023-08-27T21:05:18.298Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c69cdbff-228c-4710-a7f3-8f29e00533e6",
+        "username": "admin2",
+        "password": "secure123",
+        "email": "admin2@example.com",
+        "first_name": "Super",
+        "last_name": "Two",
+        "role": "superadmin",
+        "created_at": "2023-08-27T05:51:21.310Z",
+        "updated_at": "2023-08-27T10:00:53.871Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f52e0e06-6f27-4986-9cbb-1b2dc9179af4",
+        "username": "admin3",
+        "password": "password123",
+        "email": "admin3@example.com",
+        "first_name": "Master",
+        "last_name": "Three",
+        "role": "manager",
+        "created_at": "2023-08-27T23:05:00.242Z",
+        "updated_at": "2023-08-28T00:16:59.019Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "22bdf275-4ec4-48d4-8628-3e8e5e421af1",
+        "username": "admin4",
+        "password": "letmein",
+        "email": "admin4@example.com",
+        "first_name": "Chief",
+        "last_name": "Four",
+        "role": "supervisor",
+        "created_at": "2023-08-27T20:49:14.948Z",
+        "updated_at": "2023-08-27T11:18:55.003Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "13e74477-8f8c-4640-8351-ba83054eef2e",
+        "username": "admin5",
+        "password": "qwerty123",
+        "email": "admin5@example.com",
+        "first_name": "Head",
+        "last_name": "Five",
+        "role": "director",
+        "created_at": "2023-08-28T02:42:58.290Z",
+        "updated_at": "2023-08-27T06:54:52.683Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1c7f9ad4-d3f1-44f9-b094-497e1c5da6e6",
+        "email": "Benton.Hudson@gmail.com",
+        "firstName": "Rosalyn",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/627.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5c6bd07e-1e67-451f-98b2-1669e438edbc",
+        "email": "Javonte44@hotmail.com",
+        "firstName": "Roosevelt",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49254002",
+        "tenantId": null
+      },
+      {
+        "reference": "78c8dfb9-eceb-4443-ad63-1982395d69fe",
+        "email": "Danyka.Jast@gmail.com",
+        "firstName": "Martin",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/562.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "50e8af6a-6da7-4312-83fc-54634cdf3b10",
+        "email": "Abigayle.Oberbrunner@hotmail.com",
+        "firstName": "Louvenia",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/17.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1cd0382-132e-492a-b9c4-ff4ba5200c89",
+        "email": "Rex.Koss4@hotmail.com",
+        "firstName": "Esperanza",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/954.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "5e411d99-7d2c-439e-aeef-64b5a2375a44",
+        "username": "john.doe",
+        "password": "P@ssw0rd",
+        "email": "john.doe@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "role": "Admin",
+        "created_at": "2023-08-27T12:34:58.222Z",
+        "updated_at": "2023-08-27T12:28:02.314Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4328b003-6f42-48e1-9038-6559c6cd86cc",
+        "username": "jane.smith",
+        "password": "Secret123",
+        "email": "jane.smith@example.com",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "role": "Manager",
+        "created_at": "2023-08-27T16:11:47.463Z",
+        "updated_at": "2023-08-27T23:13:04.300Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b398652e-68ee-41c3-9bd7-37753c3569bf",
+        "username": "michael.brown",
+        "password": "SecurePwd",
+        "email": "michael.brown@example.com",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "role": "Supervisor",
+        "created_at": "2023-08-27T17:22:00.723Z",
+        "updated_at": "2023-08-27T23:51:25.767Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f843f2b2-9b99-4578-861c-9359c43bb88a",
+        "username": "sarah.jones",
+        "password": "StrongPassword",
+        "email": "sarah.jones@example.com",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "role": "Employee",
+        "created_at": "2023-08-28T03:08:04.746Z",
+        "updated_at": "2023-08-27T06:33:51.965Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "becf4ff7-e7a8-4fb8-b802-3cfa44123c24",
+        "username": "david.wilson",
+        "password": "SafePass!",
+        "email": "david.wilson@example.com",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "role": "Consultant",
+        "created_at": "2023-08-27T09:44:30.736Z",
+        "updated_at": "2023-08-27T13:22:34.035Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "64ce6736-219f-4609-8ea6-60ed9fc4bdc8",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 24623,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-08-27T12:23:11.865Z",
+        "updated_at": "2023-08-27T19:56:21.523Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5e7ea03b-ec0b-41d3-8057-cb2af9762c68",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 68156,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "status": "Rented",
+        "created_at": "2023-08-27T07:56:16.022Z",
+        "updated_at": "2023-08-28T03:53:48.975Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "50042fc2-3322-4e79-8d8b-bcc23564b98e",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 69877,
+        "color": "Green",
+        "license_plate": "123QWE",
+        "status": "Maintenance",
+        "created_at": "2023-08-27T12:42:59.809Z",
+        "updated_at": "2023-08-28T02:39:59.252Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4a81f318-5d41-461b-93b3-c6f153b23285",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 12372,
+        "color": "Black",
+        "license_plate": "456ASD",
+        "status": "Sold",
+        "created_at": "2023-08-27T07:04:52.702Z",
+        "updated_at": "2023-08-27T23:02:14.553Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bd1bfd9f-79ea-4ed2-b86d-86378102f20e",
+        "make": "BMW",
+        "model": "X5",
+        "year": 32491,
+        "color": "White",
+        "license_plate": "789ZXC",
+        "status": "Reserved",
+        "created_at": "2023-08-27T12:24:03.653Z",
+        "updated_at": "2023-08-27T15:46:47.689Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d77cece4-0eb3-410e-8c1b-9832efa5f5f2",
+        "start_time": "2023-08-28T02:47:35.832Z",
+        "end_time": "2023-08-27T05:08:15.587Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Beach",
+        "status": "Confirmed",
+        "created_at": "2023-08-27T21:49:26.013Z",
+        "updated_at": "2023-08-27T19:58:33.676Z",
+        "car_id": "5e7ea03b-ec0b-41d3-8057-cb2af9762c68",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9783ed79-3841-4b4f-808b-70dc8297196f",
+        "start_time": "2023-08-27T09:50:35.133Z",
+        "end_time": "2023-08-27T11:49:00.087Z",
+        "pickup_location": "Downtown",
+        "dropoff_location": "Park",
+        "status": "Pending",
+        "created_at": "2023-08-27T05:49:43.162Z",
+        "updated_at": "2023-08-27T18:51:23.231Z",
+        "car_id": "5e7ea03b-ec0b-41d3-8057-cb2af9762c68",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10cbf166-d426-4bf1-a504-014dc7ad00ce",
+        "start_time": "2023-08-28T00:08:06.868Z",
+        "end_time": "2023-08-27T05:50:59.421Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Museum",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T02:54:08.980Z",
+        "updated_at": "2023-08-27T17:19:40.824Z",
+        "car_id": "5e7ea03b-ec0b-41d3-8057-cb2af9762c68",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5753f16-5490-4d1d-9668-04217b3c6f62",
+        "start_time": "2023-08-27T16:32:57.519Z",
+        "end_time": "2023-08-27T15:38:16.417Z",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Restaurant",
+        "status": "Completed",
+        "created_at": "2023-08-28T00:54:39.715Z",
+        "updated_at": "2023-08-27T16:58:19.248Z",
+        "car_id": "bd1bfd9f-79ea-4ed2-b86d-86378102f20e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95223dd2-9913-42db-802f-b3a4479fcd06",
+        "start_time": "2023-08-28T00:28:37.368Z",
+        "end_time": "2023-08-27T19:13:20.944Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Office",
+        "status": "On Hold",
+        "created_at": "2023-08-27T20:28:55.399Z",
+        "updated_at": "2023-08-27T07:09:06.378Z",
+        "car_id": "50042fc2-3322-4e79-8d8b-bcc23564b98e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin": [
+      {
+        "id": "8492fb31-50dc-4aac-899a-75e94630f7d5",
+        "username": "admin1",
+        "password": "Admin123",
+        "email": "admin1@example.com",
+        "first_name": "Admin",
+        "last_name": "One",
+        "role": "Admin",
+        "created_at": "2023-08-28T00:37:59.513Z",
+        "updated_at": "2023-08-28T03:51:01.898Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6f6b40e1-674e-4606-bfc9-70d3b495e72d",
+        "username": "admin2",
+        "password": "SecurePwd",
+        "email": "admin2@example.com",
+        "first_name": "Administrator",
+        "last_name": "Two",
+        "role": "Super Admin",
+        "created_at": "2023-08-27T10:13:54.647Z",
+        "updated_at": "2023-08-27T17:13:13.198Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "87c5a13a-8c44-43c7-bcad-e31e18e4ba0f",
+        "username": "admin3",
+        "password": "SuperAdmin",
+        "email": "admin3@example.com",
+        "first_name": "Super",
+        "last_name": "Three",
+        "role": "System Admin",
+        "created_at": "2023-08-28T00:24:01.687Z",
+        "updated_at": "2023-08-27T17:34:55.873Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "efcf431f-1f0d-4af0-9c3f-fe5963a54a3f",
+        "username": "admin4",
+        "password": "Password123",
+        "email": "admin4@example.com",
+        "first_name": "System",
+        "last_name": "Four",
+        "role": "Administrator",
+        "created_at": "2023-08-27T19:05:11.607Z",
+        "updated_at": "2023-08-27T08:31:01.566Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6f980422-0ff9-4d5c-be12-113592025f8d",
+        "username": "admin5",
+        "password": "AdminPass!",
+        "email": "admin5@example.com",
+        "first_name": "Root",
+        "last_name": "Five",
+        "role": "Root User",
+        "created_at": "2023-08-27T04:54:50.877Z",
+        "updated_at": "2023-08-27T20:30:39.862Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "28fc7d65-3357-4675-bd6e-2367cce7445a",
+        "email": "Jeremie_Klocko@gmail.com",
+        "firstName": "Karianne",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17129630",
+        "tenantId": null
+      },
+      {
+        "reference": "8280a2c9-3b8e-45b7-9464-9673af32d111",
+        "email": "Roosevelt_Gleason31@yahoo.com",
+        "firstName": "Aisha",
+        "lastName": "Hahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/753.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "010a8592-77f3-4617-8a99-13af2b413e56",
+        "email": "Oceane.Stracke@gmail.com",
+        "firstName": "Lee",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/898.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1eb74b8-2b07-410e-9a7c-0dc09b640c52",
+        "email": "Tristian_Connelly51@gmail.com",
+        "firstName": "Hyman",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/447.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "baeb84f0-a81f-4f84-aa51-79b02712c831",
+        "email": "Darrell_Rice7@hotmail.com",
+        "firstName": "John",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64322538",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "d4a28e08-8dcf-42bb-ab46-a61e5d464f99",
+        "username": "johndoe",
+        "password": "p@ssw0rd",
+        "email": "john.doe@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "role": "admin",
+        "created_at": "2023-08-28T00:36:10.132Z",
+        "updated_at": "2023-08-28T01:50:04.573Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fdc26afc-c3db-415c-99cc-756932302f52",
+        "username": "janesmith",
+        "password": "secretpassword",
+        "email": "jane.smith@example.com",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "role": "manager",
+        "created_at": "2023-08-27T17:48:56.799Z",
+        "updated_at": "2023-08-28T01:39:46.666Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2a032bbd-8f47-48d7-99af-8f2626d73e95",
+        "username": "michaeljohnson",
+        "password": "12345678",
+        "email": "michael.johnson@example.com",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "role": "employee",
+        "created_at": "2023-08-27T18:18:45.419Z",
+        "updated_at": "2023-08-28T02:22:37.657Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "60fa2db2-a326-44cb-99db-224166a979df",
+        "username": "sarahwilson",
+        "password": "password123",
+        "email": "sarah.wilson@example.com",
+        "first_name": "Sarah",
+        "last_name": "Wilson",
+        "role": "supervisor",
+        "created_at": "2023-08-27T21:50:44.208Z",
+        "updated_at": "2023-08-27T19:56:17.843Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "883a83e8-7313-4f5c-aa10-fd9b97f5a791",
+        "username": "davidbrown",
+        "password": "qwerty",
+        "email": "david.brown@example.com",
+        "first_name": "David",
+        "last_name": "Brown",
+        "role": "consultant",
+        "created_at": "2023-08-28T01:59:55.817Z",
+        "updated_at": "2023-08-27T21:00:25.408Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "75670aa1-9ba6-4ab2-b0b3-a0ee51e56e60",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 26188,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "status": "Available",
+        "created_at": "2023-08-27T19:58:00.227Z",
+        "updated_at": "2023-08-27T16:21:40.983Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "82532f9f-3177-481f-ae1e-1ead2939e332",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 19185,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "status": "Rented",
+        "created_at": "2023-08-27T18:39:20.609Z",
+        "updated_at": "2023-08-27T16:40:02.745Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d9d5c16c-2486-4ab7-9fcc-fbbee3c7d6bf",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 99412,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "status": "Out of Service",
+        "created_at": "2023-08-27T21:38:21.654Z",
+        "updated_at": "2023-08-27T09:00:57.801Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "31188470-7699-4c79-bbd0-03f3f1d32eb9",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 15479,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "status": "Maintenance",
+        "created_at": "2023-08-28T02:15:03.104Z",
+        "updated_at": "2023-08-27T12:22:38.677Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "903c5482-701f-4ea9-b3f9-78be069cf37a",
+        "make": "BMW",
+        "model": "X5",
+        "year": 66627,
+        "color": "White",
+        "license_plate": "456DEF",
+        "status": "Reserved",
+        "created_at": "2023-08-27T05:28:03.687Z",
+        "updated_at": "2023-08-27T09:49:17.735Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "db0d63f1-2fcc-4d9d-9be9-8a0d485c4a23",
+        "start_time": "2023-08-28T00:11:42.640Z",
+        "end_time": "2023-08-27T21:48:54.509Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Airport",
+        "status": "Pending",
+        "created_at": "2023-08-27T07:22:20.874Z",
+        "updated_at": "2023-08-28T02:04:57.511Z",
+        "car_id": "31188470-7699-4c79-bbd0-03f3f1d32eb9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cad27422-6af4-4af5-9ee3-d8a863ae09cb",
+        "start_time": "2023-08-27T18:39:56.871Z",
+        "end_time": "2023-08-27T07:27:34.222Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Train Station",
+        "status": "Confirmed",
+        "created_at": "2023-08-27T14:38:35.297Z",
+        "updated_at": "2023-08-28T01:50:14.380Z",
+        "car_id": "31188470-7699-4c79-bbd0-03f3f1d32eb9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31b29835-8bba-4a7e-b7bc-04be9ecdff08",
+        "start_time": "2023-08-27T05:50:04.714Z",
+        "end_time": "2023-08-27T22:21:45.068Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Hotel",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T23:13:55.102Z",
+        "updated_at": "2023-08-27T11:27:27.967Z",
+        "car_id": "75670aa1-9ba6-4ab2-b0b3-a0ee51e56e60",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e89dbad4-94bc-4de2-8dd7-4b7d7408fdf7",
+        "start_time": "2023-08-27T19:46:51.182Z",
+        "end_time": "2023-08-27T11:49:37.365Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Office",
+        "status": "Completed",
+        "created_at": "2023-08-27T20:30:46.901Z",
+        "updated_at": "2023-08-27T17:06:58.569Z",
+        "car_id": "75670aa1-9ba6-4ab2-b0b3-a0ee51e56e60",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab0e2758-cd40-4278-81bc-6d551fc34824",
+        "start_time": "2023-08-28T03:42:30.550Z",
+        "end_time": "2023-08-28T04:21:08.714Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Residential Area",
+        "status": "In Progress",
+        "created_at": "2023-08-28T00:22:04.174Z",
+        "updated_at": "2023-08-28T01:28:46.264Z",
+        "car_id": "903c5482-701f-4ea9-b3f9-78be069cf37a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "admin": [
+      {
+        "id": "f394ac99-9032-4b60-bead-85ac54c431bf",
+        "username": "admin1",
+        "password": "admin123",
+        "email": "admin1@example.com",
+        "first_name": "Admin",
+        "last_name": "One",
+        "role": "admin",
+        "created_at": "2023-08-27T19:56:36.541Z",
+        "updated_at": "2023-08-27T04:37:29.198Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2bc65100-d852-42ca-a2ed-0c6a703100be",
+        "username": "admin2",
+        "password": "password123",
+        "email": "admin2@example.com",
+        "first_name": "Super",
+        "last_name": "Two",
+        "role": "superadmin",
+        "created_at": "2023-08-28T01:03:28.198Z",
+        "updated_at": "2023-08-27T13:51:21.241Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3559bbf3-9196-447a-8943-0f1689320861",
+        "username": "admin3",
+        "password": "adminpass",
+        "email": "admin3@example.com",
+        "first_name": "Master",
+        "last_name": "Three",
+        "role": "systemadmin",
+        "created_at": "2023-08-27T23:56:43.038Z",
+        "updated_at": "2023-08-27T12:20:09.861Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "47c8deff-da6d-4e55-82e2-562033a45e26",
+        "username": "admin4",
+        "password": "secureadmin",
+        "email": "admin4@example.com",
+        "first_name": "System",
+        "last_name": "Four",
+        "role": "rootadmin",
+        "created_at": "2023-08-28T03:07:11.761Z",
+        "updated_at": "2023-08-27T21:19:22.262Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0ee73a84-d684-4a5b-a04d-b9cf33016648",
+        "username": "admin5",
+        "password": "admin2021",
+        "email": "admin5@example.com",
+        "first_name": "Root",
+        "last_name": "Five",
+        "role": "masteradmin",
+        "created_at": "2023-08-27T07:06:48.503Z",
+        "updated_at": "2023-08-28T00:13:03.611Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2116fe5e-ef50-4815-a04b-a39bc026c156",
+        "email": "Madelynn_Boyer91@hotmail.com",
+        "firstName": "Alfred",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/685.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f667d53e-0b34-4983-8dc2-9dbea0af768c",
+        "email": "Aubree.Wilderman46@yahoo.com",
+        "firstName": "Camden",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41356813",
+        "tenantId": null
+      },
+      {
+        "reference": "fc223380-ac69-4805-b14b-6273d9a996c8",
+        "email": "Raoul.Dare19@gmail.com",
+        "firstName": "Jodie",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3422142",
+        "tenantId": null
+      },
+      {
+        "reference": "25952d7b-07b1-4a87-ad87-3bcc9a70ba7c",
+        "email": "Ines84@gmail.com",
+        "firstName": "Jewell",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66438006",
+        "tenantId": null
+      },
+      {
+        "reference": "cfed37c9-299e-4263-a41c-0176971091fb",
+        "email": "Noemy_Huels91@hotmail.com",
+        "firstName": "Perry",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4810364",
+        "tenantId": null
+      }
+    ]
+  }
+]
